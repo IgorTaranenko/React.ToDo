@@ -1,0 +1,110 @@
+*{
+	margin: 0;
+	padding: 0;	
+	box-sizing: border-box;
+}
+.ToDoList{
+	margin-top: 1rem;
+}
+.Rig{
+	font-size: 1.4rem;
+	float: right;
+}
+.Header{	
+ width: 40rem;
+ margin: 0 auto;
+ padding: 1rem 0; 
+ background-color: #153a84;
+ color: white;
+ text-align: center;
+}
+.App{
+	width: 40rem;
+ 
+	margin: 0 auto;
+	padding-top: 1rem;
+
+ border: 2px solid #153a84; 
+ border-top: none;
+}
+.App h2{
+	margin-bottom: 1rem;
+}
+.Tasks p{
+	display: inline-block;
+	margin-bottom: 0.3rem;
+	font-size: 1.4rem;
+}
+.Tasks{
+	padding: 0.5rem;
+	margin-bottom: 0.3rem;
+	margin: 0 1rem;
+}
+.doneTasks{
+	background: #ccc;
+}
+.doneTasks p{
+	text-decoration: line-through;
+}
+.tasksLength {
+ text-decoration: underline;
+}
+.Good{
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url(./img/OK1.png) center no-repeat;
+	background-size: cover;
+}
+.notGood{
+	display: block;
+	height: 1rem;
+	width: 1rem;
+	background: url(./img/notOK1.png) center no-repeat;
+	background-size: cover;
+}
+.Delete{
+	display: inline-block;
+	float: right;
+	height: 1rem;
+	width: 1rem;
+	background: url(./img/notOK.png) center no-repeat;
+	background-size: cover;
+}
+.doneButton {
+	display: inline-block;
+	margin-right: 1rem;
+}
+.Tasks:hover{
+	background-color: #e5dbdb;
+}
+.doneTasks:hover{
+	background-color: #ccc;
+}
+.Input{
+	width: 80%;
+	font-size: 1.4rem;
+	padding: 0.3rem;
+	border: 2px solid #153a84;
+	border-radius: 4%;
+} 
+.addButton{
+	min-width: 5.5rem;
+	font-size: 1.4rem;
+	padding: 0.3rem;
+	margin: 1rem;
+	background-color: #153a84;
+	border-color: #153a84;
+	color: white;
+	border-radius: 7%;
+}
+.addButton:hover{
+	background-color: #4fc3ff;
+}
+.ToDoItemForm{
+	padding: 0 1rem;
+	border-top: 2px solid #153a84;
+}
+.ActiveTasks{
+	margin-left: 1rem;
+}
