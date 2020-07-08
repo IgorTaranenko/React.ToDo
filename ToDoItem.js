@@ -1,6 +1,5 @@
  
  import React from 'react';
- import ReactDOM from 'react-dom';
  import './ToDoList.css';
  
  class ToDoItem extends React.Component{

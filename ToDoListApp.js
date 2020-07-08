@@ -1,6 +1,5 @@
  
  import React from 'react';
- import ReactDOM from 'react-dom';
  import './ToDoList.css';
  import ToDoItem from './ToDoItem.js';
  import ToDoItemForm from './ToDoItemForm.js';
@@ -13,10 +12,11 @@
   this.state = {
   	ToDoItems: [
     {id: 0, ToDoName: "Написать ToDoList!", done: true, editing: false},
-    {id: 1, ToDoName: "Написать приложение с авиабилетами", done: false, editing: false},
+    {id: 1, ToDoName: "Написать приложение с авиабилетами", done: true, editing: false},
     {id: 2, ToDoName: "Написать приложение с погодой", done: false, editing: false},
     {id: 3, ToDoName: "Разобраться с реактроутером", done: true, editing: false},
-    {id: 4, ToDoName: "Собрать 3 приложения в одно", done: false, editing: false},
+    {id: 4, ToDoName: "Собрать 3 приложения в одно", done: true, editing: false},
+    {id: 5, ToDoName: "Создать страницу с портфолио", done: false, editing: false},
   	]
   }
  }
