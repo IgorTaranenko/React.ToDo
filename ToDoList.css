@@ -15,8 +15,11 @@
  margin: 0 auto;
  padding: 1rem 0; 
  background-color: #153a84;
- color: white;
+
  text-align: center;
+}
+.Header h1{
+	color: white;
 }
 .App{
 	width: 40rem;
