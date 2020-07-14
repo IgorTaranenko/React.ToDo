@@ -35,7 +35,7 @@
  doneTask = (id) => {
   const index = this.state.ToDoItems.map(ToDoItems => ToDoItems.id).indexOf(id);
   const ToDoList = this.state.ToDoItems;
-  ToDoList[index].done == true ? (ToDoList[index].done = false) : (ToDoList[index].done = true);
+  ToDoList[index].done === true ? (ToDoList[index].done = false) : (ToDoList[index].done = true);
   this.setState({ToDoItems: ToDoList});
  }
 
