@@ -81,7 +81,7 @@
        <ToDoItemForm addItem={this.addItem}></ToDoItemForm>
      </div>
     <div className="myc">
-      <button onClick={() => window.location.assign('/')} className="btn btn-primary myc">Назад</button>
+      <button onClick={() => window.location.assign('/')} className="btn btn-primary myc">К портфолио</button>
     </div>
    </div>
    
